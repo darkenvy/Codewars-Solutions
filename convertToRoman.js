@@ -1,6 +1,6 @@
 
 function convertToRoman(num) { 
- var string = '';
+ var string = '',
  var mP = parseInt((num / 1000));
  var rNum = num - (mP * 1000);
  var dP = parseInt((rNum / 500));
@@ -41,4 +41,4 @@ function convertToRoman(num) {
  return string;
 }
 
-convertToRoman(36);
+console.log(convertToRoman(3999));
